@@ -342,6 +342,7 @@ body {
   font-size: 0.75rem;
   padding: 0.2rem;
   border-radius: 20px;
+  padding: 0.5rem;
 }
 
 @keyframes appear {
