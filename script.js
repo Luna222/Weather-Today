@@ -61,7 +61,7 @@ const renderCountry = function (data) {
  * @param {String} APIKey
  */
 const searchWeather = function (city, APIKey) {
-  const endpointUrlByCityName = `http://api.weatherapi.com/v1/current.json?key=${APIKey}&q=${city}`;
+  const endpointUrlByCityName = `https://api.weatherapi.com/v1/current.json?key=${APIKey}&q=${city}`;
 
   fetch(endpointUrlByCityName)
     .then(response => {
